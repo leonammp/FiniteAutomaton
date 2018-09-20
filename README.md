@@ -1,17 +1,17 @@
 # FiniteAutomaton
 Deterministic Finite Automaton Simulator
 
-# Configuration
+## Configuration
 Set the automaton struture in file: automaton.txt
-# * states
-In this variable must have the states along with their transitions.\n
-Exemple 
+### * states
+In this variable must have the states along with their transitions.<br>
+Exemple <br>
 S0 : { 'a' : 'S1', 'b' : S2 }
 
-# * start
+### * start
 The initial state of the automaton
  
-# * ends
+### * ends
 Set of final states
 
 Code in Python 2.7

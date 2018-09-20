@@ -4,8 +4,8 @@ Deterministic Finite Automaton Simulator.
 ## Configuration
 Set the automaton structure in the file: <b>automaton.txt</b>
 
-### * states
-In this variable must have the states along with their transitions.<br>
+### * statesT
+This variable has the states with their transitions.<br>
 Example:<br>
 <pre>
 S0 : { 'a' : 'S1', 'b' : S2 }

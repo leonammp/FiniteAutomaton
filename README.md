@@ -8,7 +8,11 @@ Set the automaton structure in the file: <b>automaton.txt</b>
 This variable has the states with their transitions.<br>
 Example:<br>
 <pre>
-S0 : { 'a' : 'S1', 'b' : S2 }
+states = {
+  'S0' : { 'a' : 'S1', 'b' : 'S2' },
+	'S1' : { 'a' : 'S0', 'b' : 'S2' },
+  'S2' : { 'a' : 'S2', 'b' : 'S2' }
+}
 </pre>
 ### * start
 The initial state of the automaton.<br>
